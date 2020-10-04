@@ -6,6 +6,6 @@ It's a new concept I created few years ago : web portfolio :bulb: Sounds good is
 
 Enjoy :heart:
 
-(This is what you missed)
+(This is what you missed :point_down:)
 
 ![what you missed screenshot](Screen.png)
