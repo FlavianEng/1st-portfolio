@@ -1,0 +1,125 @@
+a {
+  text-decoration: none;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.btn {
+  height: 68px;
+  float: left;
+  margin: 0 auto; 
+}
+
+.social-first {
+  margin-left: 0;
+}
+
+.contact-icon {
+  font-size: 1.375em;
+  }
+
+
+.contact-h2 {
+  margin-left: 50px;
+  margin-top: 12px;
+  padding: 12px 0 12px 0;
+  position: relative;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.contact-social {
+  color: #333333;
+  width: auto;
+  float: left;
+  padding-top: 8px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-social-img {
+  display: block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 24px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  display: inline-block;
+  line-height: 2;
+  color: #fff;
+}
+
+
+.contact-link { 
+  background: #0077b5;
+}
+a.h2-link:hover {
+  background-color: #0077b5;
+}
+
+.contact-mail {
+  background: #e64405;
+}
+a.h2-mail:hover {
+  background-color: #e64405;
+}
+
+.contact-spotify { 
+  background: #1ed760;
+}
+a.h2-spotify:hover {
+  background-color: #1ed760;
+}
+
+.contact-codepen {
+  background: #212735;
+}
+a.h2-codepen:hover {
+  background-color: #212735;
+}
+
+.contact-fb {
+  background: #3b5998;
+}
+a.h2-fb:hover {
+  background-color: #3b5998;
+}
+
+.contact-messenger {
+  background: #0084ff;
+}
+a.h2-messenger:hover {
+  background-color: #0084ff;
+}
+
+a.contact-h2:hover .contact-social-img {
+  margin-right: 12px;
+  margin-left: 24px;
+}
+
+a.contact-h2:hover .contact-fb-a,
+a.contact-h2:hover .contact-codepen-a,
+a.contact-h2:hover .contact-spotify-a,
+a.contact-h2:hover .contact-mail-a,
+a.contact-h2:hover .contact-link-a, 
+a.contact-h2:hover {
+  color: #ffffff;
+}
+
+

@@ -1,0 +1,58 @@
+html,body {
+  height:100%;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, section, a
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+.first {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('../../Images/skate.jpg'); /*Photo by Imani Clovis on Unsplash*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3D4351;
+  margin-top: 0;
+}
+
+a {
+  color: #FF6B6B;
+}
+
+a:hover {
+  color: #ff9a9a;
+  text-decoration: none;
+}
+
+h1, .title {
+  background: #44679f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #348AC7, #44679f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #348AC7, #44679f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.marge-section 
+{
+  padding-top: 20px;
+}
+
+.marge-auto {
+  margin: 0 auto;
+}
+
+.marge-end {
+  margin-bottom: 50px;
+}
+
+.right {
+  float: right;
+}
+
+.icon {
+  font-size: 200%;
+}

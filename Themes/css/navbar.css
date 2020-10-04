@@ -1,0 +1,66 @@
+.affix {
+  background-color: #eaeff3;
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;  
+  -o-transition:padding 0.2s ease-out;         
+  transition:padding 0.2s ease-out;
+}
+
+nav .navbar-nav .nav-link,
+nav .navbar-brand {
+   font-size: 21px;
+   font-weight: 500;
+}
+
+.nav-line a {
+  color: #44679f;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+
+.nav-line a:before, .nav-line a:after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #44679f;
+}
+
+.nav-line a:before {
+  opacity: 0;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav-line a:after {
+  opacity: 0;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav-line a:hover:before, .nav-line a:hover:after, .nav-line a:focus:before, .nav-line a:focus:after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.nav-line a:hover:before, .nav-line a:focus:before {
+  transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav-line a:hover:after, .nav-line a:focus:after {
+  transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#paper_cv {
+  padding-right: 2rem;
+}

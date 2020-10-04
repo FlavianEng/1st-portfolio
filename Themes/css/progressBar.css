@@ -1,0 +1,283 @@
+/*Barre HTML*/
+.progress-bar-html {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-html .progress-html {
+  position: relative;
+  /*background-color: #f16529;*/
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 85%;
+}
+.progress-bar-html .progress-html .progress-shadow-html {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+/*Barre Css*/
+.progress-bar-css {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-css .progress-css {
+  position: relative;
+  /*background-color: #29a9df;*/
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  height: 5px;
+  width: 75%;
+}
+.progress-bar-css .progress-css .progress-shadow-css {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+
+/*Barre Bootstrap*/
+.progress-bar-bootstrap {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-bootstrap .progress-bootstrap {
+  position: relative;
+  /*background-color: #53d2a9;*/
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 65%;
+}
+.progress-bar-bootstrap .progress-bootstrap .progress-shadow-bootstrap {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+/*Barre PHP*/
+.progress-bar-php {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-php .progress-php {
+  position: relative;
+  /*background-color: #7d156d;*/
+  background: #AA076B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 35%;
+}
+.progress-bar-php .progress-php .progress-shadow-php {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+/*Barre MySQL*/
+.progress-bar-mysql {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-mysql .progress-mysql {
+  position: relative;
+  /*background-color: #526ed0;*/
+  background: #7474BF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 75%;
+}
+.progress-bar-mysql .progress-mysql .progress-shadow-mysql {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+/*Barre SQL Server*/
+.progress-bar-sqlserver {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-sqlserver .progress-sqlserver {
+  position: relative;
+  /*background-color: #e4312a;*/
+  background: #D31027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #EA384D, #D31027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #EA384D, #D31027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 60%;
+}
+.progress-bar-sqlserver .progress-sqlserver .progress-shadow-sqlserver {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+/*Barre Python*/
+.progress-bar-python {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-python .progress-python {
+  position: relative;
+  /*background-color: #f6cc11;*/
+  background: #fffc00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cac531, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cac531, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 10%;
+}
+.progress-bar-python .progress-python .progress-shadow-python {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+
+/*Barre C#*/
+.progress-bar-csharp {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-csharp .progress-csharp {
+  position: relative;
+  /*background-color: #ca9dd7;*/
+  background: #B993D6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 40%;
+}
+.progress-bar-csharp .progress-csharp .progress-shadow-csharp {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+
+/*Barre JavaScript*/
+.progress-bar-js {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-js .progress-js {
+  position: relative;
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 60%;
+}
+
+.progress-bar-js .progress-js .progress-shadow-js {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+/*Barre Anglais*/
+.progress-bar-anglais {
+  margin: 0 auto;
+  height: 5px;
+  background-color: #ccd5db;
+}
+.progress-bar-anglais .progress-anglais {
+  position: relative;
+  /*background-color: #e23e57;*/
+  background: #DC2424;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5px;
+  width: 75%;
+}
+.progress-bar-anglais .progress-anglais .progress-shadow-anglais {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
+  background-image: linear-gradient(to bottom, #eaecee, transparent);
+  position: absolute;
+  height: 0.5em;
+  width: 100%;
+  top: 100%;
+  -webkit-transform: skew(-22.5deg);
+          transform: skew(-22.5deg);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+

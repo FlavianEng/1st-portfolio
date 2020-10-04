@@ -1,0 +1,284 @@
+@media all {
+
+		/* Home */
+	.home h2 {
+		color: #888;
+	}
+
+	#marge-home {
+		padding-top: 10%;
+		padding-left: 5%;
+	}
+}
+
+@media all and (max-device-width: 320px)
+{
+		/* Home */
+	#marge-home {
+		padding-top: 45%;
+		padding-left: 10%;
+	}
+
+	.home h1 {
+		font-size: 20px;
+	}
+
+	.home h2 {
+		font-size: 16px;
+	}
+
+		/* Social */
+	.contact-text {
+		font-size: 14px;
+	}
+
+	.btn {
+	  width: 250px;
+	}
+
+	.contact-h2 {
+		margin-left: 3px;
+	}
+
+			/* Card */
+	.card-txt {
+		font-size: 12px;
+	}
+
+	.card-title h4 {
+		font-size: 14px;
+	}
+}
+
+@media all and (max-device-width: 400px) and (min-device-width: 321px)
+{
+		/* Card */
+	.card-txt {
+		font-size: 14px;
+	}
+
+	.card-title h4 {
+		font-size: 18px;
+	}
+}
+
+@media all and (max-device-width: 600px)
+{
+
+		/* Home */
+	#marge-home {
+		padding-top: 25%;
+		padding-left: 10%;
+	}
+
+	.home h1 {
+		font-size: 24px;
+	}
+
+	.home h2 {
+		font-size: 19px;
+	}
+
+		/* Social */
+	.contact-text {
+		font-size: 16px;
+	}
+
+	.btn {
+	  width: 300px;
+	}
+
+	.contact-h2 {
+		margin-left: 20px;
+	}
+
+}
+
+@media all and (max-device-width: 767px){
+	#paper_cv {
+		display: none;
+	}
+}
+
+@media all and (max-device-width: 800px) and (min-device-width: 601px)
+{
+		/* Home */
+	#marge-home {
+		padding-top: 15%;
+		padding-left: 10%;
+	}
+
+	.home h1 {
+		font-size: 30px;
+	}
+
+	.home h2 {
+		font-size: 24px;
+	}
+
+		/* Social */
+	.contact-text {
+		font-size: 20px;
+	}
+
+	.btn {
+	  width: 320px;
+	}
+
+	.contact-h2 {
+		margin-left: 30px;
+	}
+}
+
+@media all and (max-device-width: 1199px) and (min-device-width: 801px)
+{
+		/* Home */
+	#marge-home {
+		padding-top: 15%;
+		padding-left: 15%;
+	}
+
+	.home h1 {
+		font-size: 35px;
+	}
+
+	.home h2 {
+		font-size: 28px;
+	}
+
+
+		/* Social */
+	.contact-text {
+		font-size: 22px;
+	}
+
+	.btn {
+	  width: 340px;
+	}
+
+	.contact-h2 {
+		margin-left: 40px;
+	}
+
+}
+
+@media all and (max-device-width: 1199px)
+{
+		/* Navbar */
+	#menu {
+		float: right;
+	}
+
+		/* ProgressBar */
+	.margin-progressBar {
+		margin: 10px;
+	}
+
+	.margin-div {
+		margin-left: -45px;
+	}
+
+	.progress-bar-html, .progress-bar-css, 
+	.progress-bar-bootstrap, .progress-bar-php, 
+	.progress-bar-mysql,.progress-bar-sqlserver,
+	.progress-bar-python,.progress-bar-csharp,
+	.progress-bar-js,.progress-bar-anglais {
+		max-width: 500px;
+		min-width: 250px;
+	}
+
+	/* Card */
+	.card-margin {
+		margin: 0 auto; 
+		margin-top: 20px;
+	}
+	
+}
+
+@media all and (min-device-width: 1200px)
+{
+		/* Home */
+	#marge-home {
+		padding-top: 15%;
+		padding-left: 25%;
+	}
+
+	.home h1 {
+		font-size: 40px;
+	}
+
+	.home h2 {
+		font-size: 34px;
+	}
+
+		/* ProgressBar */
+	.ligne {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+	.margin-div {
+		padding-top: 20px;
+	}
+
+	.progressBar {
+		width: auto;
+		margin: 0 5% 0 6%;
+		position: relative;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.progress-bar-html, .progress-bar-css, 
+	.progress-bar-bootstrap, .progress-bar-php, 
+	.progress-bar-mysql,.progress-bar-sqlserver,
+	.progress-bar-python,.progress-bar-csharp,
+	.progress-bar-js,.progress-bar-anglais {
+		width: 500px;
+	}
+
+		/*Card*/
+	.card-margin {
+		margin: 0 auto; 
+	}
+
+	.card-align {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    margin-right: -15px;
+	    margin-left: -15px;
+	    margin-top: 10px;
+	}
+
+	.card-txt {
+	  text-align: center;
+	  font-size: 15px;
+	}
+
+		/* Social */
+	.contact-text {
+		font-size: 22px;
+	}
+
+	.btn {
+	  width: 340px;
+	}
+
+	.contact-h2 {
+		margin-left: 50px;
+	}
+}
+
+
+

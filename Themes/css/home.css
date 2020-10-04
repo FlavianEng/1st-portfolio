@@ -1,0 +1,13 @@
+.home h1, .home h2 {
+	font-weight: 200;
+	margin: 0.4em 0;
+	background: #44679f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #348AC7, #44679f);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #348AC7, #44679f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.right {
+	margin-left:5%;
+}
